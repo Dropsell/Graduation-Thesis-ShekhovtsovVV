@@ -47,7 +47,7 @@ AGENTS_COUNT = 6000
 ```
 
 ## Описание структуры репозитория
-<p>Метод распологается в корне репозитория в файле <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/Graduation-Thesis-ShekhovtsovVV/blob/main/load_level_metod.ipynb">load level_metod.ipynb</a>. </p>
+<p>Метод распологается в корне репозитория в файле <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/blob/main/load_level_metod.ipynb">load level_metod.ipynb</a>. </p>
 <p>
 В папке <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/tree/main/data">data</a> находятся исходные геослои сценариев. 
 </p>
