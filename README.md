@@ -13,6 +13,7 @@ graph_name = "1111192"
 ```
 
 Для импортирования графа из файлов geojson требуется подготовить два файла: для узлов и для связей графа. Названия файлов должны иметь префикс `n_` и `e_` соответсвенно. В полне `graph_name` прописать общую часть названия файла без префикса и без расширения `.geojson`, а флаг `is_read_from_osm` поставить в `False`. Например для двух файлов `n_1_Base.geojson` и `e_1_Base.geojson` параметры входных данных будут:
+
 ```py
 is_read_from_osm = True
 graph_name = "1_Base"
@@ -27,15 +28,14 @@ graph_name = "1_Base"
     <tr>
         <th><ul>
             <li>Геопозиция</li>
-            <li>ID узла</li>
+            <li>osmid - ID узла</li>
         </ul></th>
         <th><ul>
             <li>ID связи</li>
             <li>Геопозиция</li>
-            <li>ID начального узла</li>
-            <li>ID конечного узла</li>
-            <li>Направление движения</li>
-            <li>Количество полос</li>
+            <li>u - ID начального узла</li>
+            <li>v - ID конечного узла</li>
+            <li>lanes - Количество полос</li>
         </ul></th>
     </tr>
 </table>
@@ -47,10 +47,48 @@ AGENTS_COUNT = 6000
 ```
 
 ## Описание структуры репозитория
-<p>Метод распологается в корне репозитория в файле <a>load level_metod.ipynb</a>. </p>
+<p>Метод распологается в корне репозитория в файле <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/Graduation-Thesis-ShekhovtsovVV/blob/main/load_level_metod.ipynb">load level_metod.ipynb</a>. </p>
 <p>
-В папке "scenario network presets" находятся исходные геослои сценариев. В папке "scenario results" находятся картограммы уровня загрузки и интенсивности, полученные в результате работы метода. Цвет ребра обозначает уровень загрузки, где 0 - зелёный, 1 - красный. Толщина ребра пропорционален интенсивности движения на нём.
+В папке <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/tree/main/data">data</a> находятся исходные геослои сценариев. 
+</p>
+
+### Описание сценариев
+<table>
+    <tr>
+        <th>Номер сценария</th>
+        <th>Названия файлов</th>
+        <th>Описание</th>
+    </tr>
+    <tr>
+        <th>Сценарий 0</th>
+        <th><ul>
+            <li>e_1_base.geojson</li>
+            <li>n_1_base.geojson</li>
+        </ul></th>
+        <th>Граф дорог существующего положения</th>
+    </tr>
+    <tr>
+        <th>Сценарий 1</th>
+        <th><ul>
+            <li>e_2_exp_Lenin.geojson</li>
+            <li>n_2_exp_Lenin.geojson</li>
+        </ul></th>
+        <th>Граф с увеличением количества полос на магистральной улице</th>
+    </tr>
+    <tr>
+        <th>Сценарий 2</th>
+        <th><ul>
+            <li>e_3_west_bypass.geojson</li>
+            <li>n_3_west_bypass.geojson</li>
+        </ul></th>
+        <th>Граф с добавлением западного обхода города</th>
+    </tr>
+</table>
+<p>
+В папке <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/tree/main/scenario-results">scenario-results</a> находятся картограммы уровня загрузки и интенсивности, полученные в результате работы метода. Цвет ребра обозначает уровень загрузки, где 0 - зелёный, 1 - красный. Толщина ребра пропорционален интенсивности движения на нём.
+В папке <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/tree/main/scenario-results/geolayers">scenario results\geolayers</a> расположены геослои, полученные в результате работы метода. 
+
 </p>
 <p>
-В файле <a>ВКР Шеховцов_25.pdf</a> находится текст работы.
+В файле <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/blob/main/%D0%92%D0%9A%D0%A0_%D0%A8%D0%B5%D1%85%D0%BE%D0%B2%D1%86%D0%BE%D0%B2_%D0%92.%D0%92.pdf">ВКР_Шеховцов_В.В.pdf</a> находится текст работы.
 </p>
