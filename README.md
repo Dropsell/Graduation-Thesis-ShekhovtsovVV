@@ -108,7 +108,7 @@ AGENTS_COUNT = 6000
     </tr>
     <tr>
         <th>Презентация к ВКР</th>
-        <th><a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/blob/main/documents/%D0%92%D0%9A%D0%A0_%D0%A8%D0%B5%D1%85%D0%BE%D0%B2%D1%86%D0%BE%D0%B2_%D0%92.%D0%92.pdf">ВКР_Шеховцов_В.В_презентация.pdf</a></th>
+        <th><a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/blob/main/documents/%D0%92%D0%9A%D0%A0_%D0%A8%D0%B5%D1%85%D0%BE%D0%B2%D1%86%D0%BE%D0%B2_%D0%92.%D0%92._%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F.pdf">ВКР_Шеховцов_В.В_презентация.pdf</a></th>
         <th>Презентация к ВКР</th>
     </tr>
 </table>
