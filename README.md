@@ -47,7 +47,7 @@ AGENTS_COUNT = 6000
 ```
 
 ## Описание структуры репозитория
-<p>Метод распологается в корне репозитория в файле <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/blob/main/load_level_metod.ipynb">load level_metod.ipynb</a>. </p>
+<p>Метод распологается в корне репозитория в файле <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/blob/main/load_level_method.ipynb">load level_method.ipynb</a>. </p>
 <p>
 В папке <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/tree/main/data">data</a> находятся исходные геослои сценариев. 
 </p>
@@ -87,8 +87,29 @@ AGENTS_COUNT = 6000
 <p>
 В папке <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/tree/main/scenario-results">scenario-results</a> находятся картограммы уровня загрузки и интенсивности, полученные в результате работы метода. Цвет ребра обозначает уровень загрузки, где 0 - зелёный, 1 - красный. Толщина ребра пропорционален интенсивности движения на нём.
 В папке <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/tree/main/scenario-results/geolayers">scenario results\geolayers</a> расположены геослои, полученные в результате работы метода. 
+</p>
 
-</p>
 <p>
-В файле <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/blob/main/%D0%92%D0%9A%D0%A0_%D0%A8%D0%B5%D1%85%D0%BE%D0%B2%D1%86%D0%BE%D0%B2_%D0%92.%D0%92.pdf">ВКР_Шеховцов_В.В.pdf</a> находится текст работы.
+В папке <a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/tree/main/documents">documents</a> находятся документы ВКР.
 </p>
+
+
+### Перечень документов
+<table>
+    <tr>
+        <th>Документ</th>
+        <th>Названия файлов</th>
+        <th>Описание</th>
+    </tr>
+    <tr>
+        <th>Текст ВКР</th>
+        <th><a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/blob/main/documents/%D0%92%D0%9A%D0%A0_%D0%A8%D0%B5%D1%85%D0%BE%D0%B2%D1%86%D0%BE%D0%B2_%D0%92.%D0%92.pdf">ВКР_Шеховцов_В.В.pdf</a></th>
+        <th>Текст работы, техническое задание </th>
+    </tr>
+    <tr>
+        <th>Презентация к ВКР</th>
+        <th><a href="https://github.com/Dropsell/Graduation-Thesis-ShekhovtsovVV/blob/main/documents/%D0%92%D0%9A%D0%A0_%D0%A8%D0%B5%D1%85%D0%BE%D0%B2%D1%86%D0%BE%D0%B2_%D0%92.%D0%92.pdf">ВКР_Шеховцов_В.В_презентация.pdf</a></th>
+        <th>Презентация к ВКР</th>
+    </tr>
+</table>
+
